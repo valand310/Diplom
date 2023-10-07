@@ -1,0 +1,107 @@
+@import "fonts.css";
+@import "reset.css";
+@import "global.css";
+
+
+.header {
+    background: var(--accent-color);
+}
+
+.header__top {
+    margin-top: 29px;
+}
+
+.header__top-inner {
+    display: grid;
+    grid-template-columns: repeat(4, max-content);
+    align-items: center;
+    
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 29.239px;
+    font-weight: 700;
+    line-height: 23.391px;
+    letter-spacing: -1.462px;
+    margin-bottom: 7%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-right: 74px;
+
+}
+
+.header__logo img {
+    flex-shrink: 0;
+
+}
+
+
+.nav {
+    color: #FFF;
+
+    font-size: 16px;
+
+    font-weight: 400;
+    line-height: 20px;
+    /* 125% */
+    margin-right: 160px;
+
+}
+
+.nav__list {
+    display: flex;
+    gap: 40px;
+}
+
+.nav__item {}
+
+.nav__link {
+    padding: 5px 0px;
+    transition: .4s;
+}
+.nav__link:hover {
+    color:#FFC464;
+}
+
+.header__geo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 40px;
+    
+}
+
+.header__geo-icon {
+    max-height: 20px;
+}
+
+.header__call {
+    padding: 16px 10px;
+    border: 2px solid #FFC464;
+    border-radius: 15px;
+    color: #FFC464;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 162px;
+    transition: all .4s;
+    
+    
+}
+
+.header__call:hover {
+    border: 2px solid #fff;
+    background: #fff;
+    color: #000;
+}

@@ -1,0 +1,37 @@
+:root {
+    --general-text: #000;
+    --background-section: linear-gradient(0deg, #FAFAFA 0%, #FAFAFA 100%);
+    --accent-color: #A95094;
+}
+
+body {
+    font-family: "TTNorms", "Arial", sans-serif;
+    line-height: 1.2;
+    color: var(--general-text);
+    background: #FFF;
+}
+
+.wrapper {
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    flex-grow: 1;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+}
+
+
+.title {
+
+}
